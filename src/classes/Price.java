@@ -5,7 +5,5 @@ abstract class Price {
 
     abstract int getCharge(int daysRented);
 
-    int getFrequentRenterPoints(int daysRented){
-        return 1;
-    }
+    int getFrequentRenterPoints(int daysRented){  return 1;}
 }

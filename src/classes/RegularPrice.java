@@ -11,5 +11,4 @@ class RegularPrice extends Price {
             result += (daysRented - 2) * 2;
         return result;
     }
-
 }

@@ -23,7 +23,6 @@ public class MovieTest {
                 Assert.assertEquals(4, testMovie.getCharge(3));
         }
 
-
         @Test
         public void testSetPriceCode(){
                 testMovie.setPrice(Movie.REGULAR);

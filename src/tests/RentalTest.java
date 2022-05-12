@@ -5,11 +5,11 @@ import classes.Rental;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.*;
 
 public class RentalTest {
 
     private Movie testMovie = new Movie( "Frozen", Movie.CHILDRENS);
+
     private Rental testRental = new Rental(testMovie, 3);
 
     @Test

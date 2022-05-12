@@ -11,5 +11,4 @@ class ChildrensPrice extends Price {
             result += (daysRented - 3);
         return result;
     }
-
 }

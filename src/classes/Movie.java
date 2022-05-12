@@ -23,7 +23,6 @@ public class Movie {
     }
 
     public void setPrice(int newPrice) {
-
         switch (newPrice) {
             case REGULAR:
                 price = new RegularPrice();
@@ -37,17 +36,13 @@ public class Movie {
             default:
                 throw new IllegalArgumentException("Incorrect Price Code");
         }
-
     }
 
     public String getTitle (){
         return title;
     };
 
-
     public int getCharge(int daysRented) {
         return price.getCharge(daysRented);
     }
-
-
 }

@@ -17,8 +17,6 @@ public class Rental {
         return movie;
     }
 
-
-
     public int getCharge(){
         return movie.getCharge(daysRented);
     }
