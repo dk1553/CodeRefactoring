@@ -1,3 +1,6 @@
+package tests;
+
+import classes.Movie;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -8,7 +11,7 @@ import static org.junit.Assert.*;
 public class MovieTest {
 
 
-        private Movie testMovie= new Movie("Shrek", 2);
+        private Movie testMovie= new Movie("Shrek", Movie.REGULAR);
 
         @Test
         public void testGetMovie(){
@@ -16,15 +19,15 @@ public class MovieTest {
         }
 
         @Test
-        public void testGetPriceCode(){
-                Assert.assertEquals(2, testMovie.getPrice());
+        public void testGetPrice(){
+                Assert.assertEquals(4, testMovie.getCharge(3));
         }
 
 
         @Test
         public void testSetPriceCode(){
-                testMovie.setPrice(20);
-                Assert.assertEquals(20, testMovie.getPrice());
+                testMovie.setPrice(Movie.REGULAR);
+                Assert.assertEquals(4, testMovie.getCharge(3));
         }
 
 }
