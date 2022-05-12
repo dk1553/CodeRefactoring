@@ -1,10 +1,5 @@
 package classes;
 
-import classes.ChildrensPrice;
-import classes.NewReleasePrice;
-import classes.Price;
-import classes.RegularPrice;
-
 public class Movie {
 
     public static final int CHILDRENS = 2;

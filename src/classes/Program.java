@@ -1,7 +1,5 @@
 package classes;
 
-import classes.Customer;
-
 import java.lang.*;
 
 /**

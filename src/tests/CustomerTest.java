@@ -6,8 +6,6 @@ import classes.Rental;
 import org.junit.Assert;
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
-
 public class CustomerTest {
 
     private Customer testCustomer = new Customer("Daria");

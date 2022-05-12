@@ -3,11 +3,6 @@ package tests;
 import classes.Movie;
 import org.junit.Assert;
 import org.junit.Test;
-
-
-
-import static org.junit.Assert.*;
-
 public class MovieTest {
 
 
