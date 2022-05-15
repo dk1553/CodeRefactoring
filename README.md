@@ -9,9 +9,13 @@ Improving the Design of Existing Code by Martin Fowler, Kent Beck (Contributor),
 Using the IDE IntelliJ, there are several short cuts and functions, you can use for refactoring. The one I used the most in this project is:
 
 `Ctr` + `ALT` + `SHIFT` + `T` => Refactor or extract variables, methods (Invoke refactoring / Refactoring menu)
+
 `Ctr` + `ALT` + `M` => Extract Method
+
 `Ctr` + `ALT` + `C` => Extract Constant
+
 `Ctr` + `ALT` + `P` => Extract Parameter
+
 `Shift` + F6 => Rename
 
 ## CODACY
