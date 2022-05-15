@@ -13,3 +13,5 @@ Using the IDE IntelliJ, there are several short cuts and functions, you can use 
 `Ctr` + `ALT` + `C` => Extract Constant
 `Ctr` + `ALT` + `P` => Extract Parameter
 `Shift` + F6 => Rename
+
+Codacy Badge
